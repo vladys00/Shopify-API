@@ -1,8 +1,11 @@
 import "./App.css";
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
+    <NavBar/>
       <div className="w-[100vw] h-[100vh] center ">
         <div className="p-4 border rounded-md w-[fit-content] h-[fit-content]">
           <h1 className="text-[2rem] text-center">
