@@ -6,7 +6,7 @@ function App() {
   return (
     <>
     <NavBar/>
-      <div className="w-[100vw] h-[100vh] center ">
+      <div className="center h-[88vh] ">
         <div className="p-4 border rounded-md w-[fit-content] h-[fit-content]">
           <h1 className="text-[2rem] text-center">
             Introduction to Shopify-API
@@ -26,6 +26,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 }

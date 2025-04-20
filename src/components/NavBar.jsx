@@ -1,6 +1,6 @@
 function NavBar () {
     return (
-        <div className=" p-3 flex justify-between">
+        <div className="bg-blue-500 p-3 flex justify-between">
             <div>
                 <p>Home</p>
             </div>
